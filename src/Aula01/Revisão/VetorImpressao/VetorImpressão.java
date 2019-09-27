@@ -1,10 +1,13 @@
-package Aula01;
+package Aula01.Revisão.VetorImpressao;
 
-public class Vetor {
+public class VetorImpressão {
 
-    public Vetor(){
+    private int x;
+
+    public VetorImpressão(){
 
     }
+
 
     public void dezprimeirosnumerosImpares(int vetor[]){
 
@@ -12,6 +15,8 @@ public class Vetor {
             System.out.print(vetor[contador]+ " ");
         }
     }
-    
+
+
+
 
 }

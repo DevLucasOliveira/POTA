@@ -1,10 +1,10 @@
-package Aula01;
+package Aula01.Revisão.RepeticaoWhile;
 
-public class Repeticao {
+public class RepeticaoWhile {
 
     private int numero;
 
-    public Repeticao() {
+    public RepeticaoWhile() {
 
     }
 

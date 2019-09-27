@@ -1,4 +1,4 @@
-package Aula01;
+package Aula01.Revisão.Condicional;
 
 
 public class Condicional {
