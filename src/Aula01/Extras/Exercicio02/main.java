@@ -11,15 +11,17 @@ public class main {
         String jogador1, jogador2;
 
         Exercicio02 jogo = new Exercicio02();
-        System.out.print("---------------------------------------"+
+        System.out.print("------------------------------------------"+
                             "\n          JOKENPO            " +
-                        "\n---------------------------------------" +
-                " (Jogador 1) Sua jogada: ");
+                        "\n------------------------------------------" +
+                "\n(Jogador 1) Sua jogada: ");
                 jogador1 = input.nextLine();
-        System.out.println("(Jogador 2) Sua jogada: ");
+        System.out.print("(Jogador 2) Sua jogada: ");
                 jogador2 = input2.nextLine();
 
-        jogo.resultJokenpo(jogador1,jogador2);
+        System.out.println("------------------------------------------"
+                +"\nRESULTADO: "); jogo.resultJokenpo(jogador1,jogador2);
+
 
 
     }

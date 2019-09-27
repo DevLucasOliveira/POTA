@@ -2,7 +2,6 @@ package Aula01.Extras.Exercicio02;
 
 public class Exercicio02 {
 
-    private String pedra,papel,tesoura;
 
     public Exercicio02() {
 
@@ -10,24 +9,27 @@ public class Exercicio02 {
 
     public void resultJokenpo(String jogada1, String jogada2){
 
-        if ((jogada1 == pedra) && (jogada2 == pedra)){
+        if ((jogada1.equals("pedra")) && (jogada2.equals("pedra"))){
             System.out.println("EMPATE");
-        }if((jogada1 == tesoura) && (jogada2 == pedra)){
+        }else if((jogada1.equals("tesoura")) && (jogada2.equals("pedra"))){
             System.out.println("Jogador2 VENCEU");
-        }if((jogada1 == pedra) && (jogada2 == tesoura)){
+        }else if((jogada1.equals("pedra")) && (jogada2.equals("tesoura"))){
             System.out.println("Jogador1 VENCEU");
-        }if((jogada1 == tesoura) && (jogada2 == tesoura)){
+        }else if((jogada1.equals("tesoura")) && (jogada2.equals("tesoura"))){
             System.out.println("EMPATE");
-        }if((jogada1 == papel) && (jogada2 == tesoura)){
+        }else if((jogada1.equals("papel")) && (jogada2.equals("tesoura"))){
             System.out.println("Jogador2 VENCEU");
-        }if((jogada1 == tesoura) && (jogada2 == papel)){
+        }else if((jogada1.equals("tesoura")) && (jogada2.equals("papel"))){
             System.out.println("Jogador1 VENCEU");
-        }if((jogada1 == papel) && (jogada2 == papel)){
+        }else if((jogada1.equals("papel")) && (jogada2.equals("papel"))){
             System.out.println("EMPATOU");
-        }if((jogada1 == pedra) && (jogada2 == papel)){
+        }else if((jogada1.equals("pedra")) && (jogada2.equals("papel"))){
             System.out.println("Jogador2 VENCEU");
-        }if((jogada1 == papel) && (jogada2 == pedra)){
+        }else if((jogada1.equals("papel")) && (jogada2.equals("pedra"))){
             System.out.println("Jogador1 VENCEU");
+        }else{
+            System.out.println("Jogada Errada!");
         }
+
     }
 }
