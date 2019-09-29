@@ -1,13 +1,13 @@
 package Aula05.Métodos_de_Ordenação.Bubble_Sort.Exercicio01;
 
-import java.util.Random;
+
 import java.util.Scanner;
 
 public class main{
 
 
     public static void main(String[] args) {
-        Random random = new Random();
+
         Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
         int tamanhoVetor, escolha_de_ordenacao ;
