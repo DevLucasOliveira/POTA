@@ -9,10 +9,10 @@ public class main {
 
 
         System.out.println("Numeros Gerados:");
-        int [] aleatorio = new int[20];
+        int[] aleatorio = new int[20];
         Random r = new Random();
 
-        for(int i=0; i < aleatorio.length; i++){
+        for (int i = 0; i < aleatorio.length; i++) {
             aleatorio[i] = r.nextInt(100);
         }
 
@@ -23,9 +23,6 @@ public class main {
         System.out.println(Arrays.toString(aleatorio));
 
 
-
     }
-
-
 
 }
